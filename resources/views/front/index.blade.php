@@ -227,69 +227,316 @@
   <div class="container ">
     <div class="row" style="background-color: #e0ffff !important;">
       <div class="col-md-8">
-        <img src="{{ asset('images/other/czm.png') }}" alt="" style="display: block;  margin-left: auto; margin-right: auto;">
+        <img src="{{ asset('images/other/czm.png') }}" alt="" style="display: block;  margin-left: auto; margin-right: auto; width:60%">
       </div>
 
       <div class="col-md-4">
         <div class="textwidget custom-html-widget padding-top">
-            <a href="/sponsor-czm-projects-2/"><button class="side-btns" style="background:#408AC7" > Sponsor CZM Project
-            </button></a>
-            <br> <br> 
-            <a href="/pay_zakat/"><button class="side-btns" style="background:#BE1B55" > Pay Your Zakat
-            </button></a>
-            <br> <br> 
-            <a href="/success-stories/"><button class="side-btns" style="background:#228B22" > Success Stories
-            </button></a>
-            <br> <br> 
-            <a href="https://czm-bd.org/zakat_calculator/"><button class="side-btns" style="background:#6699CE" > Zakat Calculator
-            </button></a>
+            <a href="/sponsor-czm-projects-2/"><button class="side-btns2" style="background:#408AC7"> Sponsor CZM Project
+    </button></a>
+    <a href="/pay_zakat/"><button class="side-btns2" style="background:#BE1B55"> Pay Your Zakat
+    </button></a>
+    <a href="/success-stories/"><button class="side-btns2" style="background:#228B22"> Success Stories
+    </button></a>
+  
+    <a href="https://czm-bd.org/zakat_calculator/"><button class="side-btns2" style="background:#581845"> Zakat Calculator
+    </button></a>
       </div>
-        
-      
-        
 
       </div>
     </div>
   </div>
 </section>
 
-<section>
-  <div class="container ">
+
+<section id="ts-team" class="ts-team">
+  <div class="container">
     <div class="row text-center">
-      <div class="col-12">
-        <h2 class="section-title">Success Storiesy</h2>
-      </div>
-      <br><br>
-  </div>
+        <div class="col-lg-12">
+          <h2 class="section-title">Zakat Based Success Stories</h2><br>
+        </div>
+    </div><!--/ Title row end -->
+
     <div class="row">
-      <div class="col-md-6">
+        <div class="col-lg-12">
+          <div id="team-slide" class="team-slide">
 
-      </div>
+              <div class="card item">
+                <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      {{-- <img loading="lazy" class="w-100" src="images/team/team1.jpg" alt="team-img"> --}}
+                      <a href="/successStories/story"><img class="card-img-top" src="{{ asset('images/stories/Maya-Begum.jpg') }}"  width="100%" height="180"  alt=""></a>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title crop-text-2">Nats Stenman</h5>
+                      <p class="card-text crop-text-1">Nats Stenman began his career in construction with boots career in construction with boots career in construction with boots on the ground</p>
+                     <!--/ social-icons-->
+                    </div>
+                </div><!--/ Team wrapper end -->
+              </div><!-- Team 1 end -->
 
-      <div class="col-md-6">
+              <div class="card item">
+                <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      {{-- <img loading="lazy" class="w-100" src="images/team/team1.jpg" alt="team-img"> --}}
+                      <a href="#"><img class="card-img-top" src="{{ asset('images/stories/Maya-Begum.jpg') }}"  width="100%" height="180"  alt=""></a>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title crop-text-2">Nats Stenman</h5>
+                      <p class="card-text crop-text-1">Nats Stenman began his career in construction with boots career in construction with boots career in construction with boots on the ground</p>
+                     <!--/ social-icons-->
+                    </div>
+                </div><!--/ Team wrapper end -->
+              </div><!-- Team 2 end -->
 
-      </div>
-    </div>
+              <div class="card item">
+                <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      {{-- <img loading="lazy" class="w-100" src="images/team/team1.jpg" alt="team-img"> --}}
+                      <a href="#"><img class="card-img-top" src="{{ asset('images/stories/Maya-Begum.jpg') }}"  width="100%" height="180"  alt=""></a>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title crop-text-2">Nats Stenman</h5>
+                      <p class="card-text crop-text-1">Nats Stenman began his career in construction with boots career in construction with boots career in construction with boots on the ground</p>
+                     <!--/ social-icons-->
+                    </div>
+                </div><!--/ Team wrapper end -->
+              </div><!-- Team 1 end -->
+
+              <div class="card item">
+                <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      {{-- <img loading="lazy" class="w-100" src="images/team/team1.jpg" alt="team-img"> --}}
+                      <a href="#"><img class="card-img-top" src="{{ asset('images/stories/Maya-Begum.jpg') }}"  width="100%" height="180"  alt=""></a>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title crop-text-2">Nats Stenman</h5>
+                      <p class="card-text crop-text-1">Nats Stenman began his career in construction with boots career in construction with boots career in construction with boots on the ground</p>
+                     <!--/ social-icons-->
+                    </div>
+                </div><!--/ Team wrapper end -->
+              </div><!-- Team 1 end -->
+
+              <div class="card item">
+                <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      {{-- <img loading="lazy" class="w-100" src="images/team/team1.jpg" alt="team-img"> --}}
+                      <a href="#"><img class="card-img-top" src="{{ asset('images/stories/Maya-Begum.jpg') }}"  width="100%" height="180"  alt=""></a>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title crop-text-2">Nats Stenman</h5>
+                      <p class="card-text crop-text-1">Nats Stenman began his career in construction with boots career in construction with boots career in construction with boots on the ground</p>
+                     <!--/ social-icons-->
+                    </div>
+                </div><!--/ Team wrapper end -->
+              </div><!-- Team 1 end -->
+
+              <div class="card item">
+                <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      {{-- <img loading="lazy" class="w-100" src="images/team/team1.jpg" alt="team-img"> --}}
+                      <a href="#"><img class="card-img-top" src="{{ asset('images/stories/Maya-Begum.jpg') }}"  width="100%" height="180"  alt=""></a>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title crop-text-2">Nats Stenman</h5>
+                      <p class="card-text crop-text-1">Nats Stenman began his career in construction with boots career in construction with boots career in construction with boots on the ground</p>
+                     <!--/ social-icons-->
+                    </div>
+                </div><!--/ Team wrapper end -->
+              </div><!-- Team 1 end -->
+
+              <div class="card item">
+                <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      {{-- <img loading="lazy" class="w-100" src="images/team/team1.jpg" alt="team-img"> --}}
+                      <a href="#"><img class="card-img-top" src="{{ asset('images/stories/Maya-Begum.jpg') }}"  width="100%" height="180"  alt=""></a>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title crop-text-2">Nats Stenman</h5>
+                      <p class="card-text crop-text-1">Nats Stenman began his career in construction with boots career in construction with boots career in construction with boots on the ground</p>
+                     <!--/ social-icons-->
+                    </div>
+                </div><!--/ Team wrapper end -->
+              </div><!-- Team 1 end -->
+
+          </div><!-- Team slide end -->
+        </div>
+    </div><!--/ Content row end -->
+  </div><!--/ Container end -->
+  <div class="col-12">
+        <div class="general-btn text-center">
+          <a class="btn btn-primary" href="projects.html">View All Stories</a>
+        </div>
   </div>
-</section>
+</section><!--/ Team end -->
 
+<br>
 
 <section class="project-area solid-bg">
   <div class="container">
     <div class="row text-center">
       <div class="col-lg-12">
-        <h2 class="section-title">Work of Excellence</h2>
-        <h3 class="section-sub-title">Photo Gallery</h3>
+        <h2 class="section-title">Photo Gallery</h2><br>
       </div>
     </div>
     <!--/ Title row end -->
 
-    <div class="row">
+    <!-- Gallery -->
+  <div class="row">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <img
+      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
 
-
-    </div>
   </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+  </div>
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+  </div>
+  <div class="col-lg-4 mb-4 mb-lg-0">
+      <img
+      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+    
+  </div>
+
+  
+  </div>
+
+    {{-- <div class="row">
+      <div class="col-12">
+        <div class="shuffle-btn-group">
+          <label class="active" for="all">
+            <input type="radio" name="shuffle-filter" id="all" value="all" checked="checked">Show All
+          </label>
+          <label for="commercial">
+            <input type="radio" name="shuffle-filter" id="commercial" value="commercial">Jeebika
+          </label>
+          <label for="education">
+            <input type="radio" name="shuffle-filter" id="education" value="education">Genius
+          </label>
+          <label for="government">
+            <input type="radio" name="shuffle-filter" id="government" value="government">Insaniat
+          </label>
+          <label for="infrastructure">
+            <input type="radio" name="shuffle-filter" id="infrastructure" value="infrastructure">Health
+          </label>
+          <label for="residential">
+            <input type="radio" name="shuffle-filter" id="residential" value="residential">Vocational
+          </label>
+          <label for="healthcare">
+            <input type="radio" name="shuffle-filter" id="healthcare" value="healthcare">Healthcare
+          </label>
+        </div><!-- project filter end -->
+
+
+        <div class="row shuffle-wrapper">
+          <div class="col-lg-4 col-sm-6 shuffle-item" data-groups="[&quot;government&quot;,&quot;healthcare&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/projects/project1.jpg" aria-label="project-img">
+                <img class="w-100 shadow-1-strong rounded mb-4" src="images/projects/project1.jpg" alt="project-img">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              
+            </div>
+          </div><!-- shuffle item 1 end -->
+
+          <div class="col-lg-4 col-sm-6 shuffle-item" data-groups="[&quot;healthcare&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/projects/project2.jpg" aria-label="project-img">
+                <img class="img-fluid" src="images/projects/project2.jpg" alt="project-img">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+            </div>
+          </div><!-- shuffle item 2 end -->
+
+          <div class="col-lg-4 col-sm-6 shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;commercial&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/projects/project3.jpg" aria-label="project-img">
+                <img class="img-fluid" src="images/projects/project3.jpg" alt="project-img">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+            </div>
+          </div><!-- shuffle item 3 end -->
+
+          <div class="col-lg-4 col-sm-6 shuffle-item" data-groups="[&quot;education&quot;,&quot;infrastructure&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/projects/project4.jpg" aria-label="project-img">
+                <img class="img-fluid" src="images/projects/project4.jpg" alt="project-img">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+            </div>
+          </div><!-- shuffle item 4 end -->
+
+          <div class="col-lg-4 col-sm-6 shuffle-item" data-groups="[&quot;infrastructure&quot;,&quot;education&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/projects/project5.jpg" aria-label="project-img">
+                <img class="img-fluid" src="images/projects/project5.jpg" alt="project-img">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+            </div>
+          </div><!-- shuffle item 5 end -->
+
+          <div class="col-lg-4 col-sm-6 shuffle-item" data-groups="[&quot;residential&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/projects/project6.jpg" aria-label="project-img">
+                <img class="img-fluid" src="images/projects/project6.jpg" alt="project-img">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+            </div>
+          </div><!-- shuffle item 6 end -->
+        </div><!-- shuffle end -->
+      </div>
+
+      <div class="col-12">
+        <div class="general-btn text-center">
+          <a class="btn btn-primary" href="projects.html">View All Images</a>
+        </div>
+      </div>
+
+    </div> --}}
+  <!-- Gallery -->
+  </div>
+  <div class="col-12" style="margin-top:-40px;">
+        <div class="general-btn text-center">
+          <a class="btn btn-primary" href="/gallery/image"> All Photos</a>
+        </div>
+  </div>
+  <br>
 </section>
+
+
 
 
 
@@ -297,20 +544,66 @@
   <div class="container ">
     <div class="row text-center">
       <div class="col-12">
-        <h2 class="section-title">Video Gallery</h2>
+         <h2 class="section-title">Work of Excellence</h2>
+        <h3 class="section-sub-title">Video Gallery</h3>
       </div>
       <br><br>
   </div>
-    <div class="row">
-      <div class="col-md-6">
 
-      </div>
-
-      <div class="col-md-6">
-
-      </div>
-    </div>
+  <div class="row">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <a href="https://youtu.be/YTsY8CepMmY?list=PLqGW84RLvtT3wT150rpykmReEcWWGa7PJ">
+      <img
+        src="{{ asset('images/youtube/v11.jpg') }}"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt=""
+      />
+      <p style="margin-top:-20px; text-align: center;">যাকাত কি এবং কেন?</p>
+    </a>
   </div>
+
+   <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <a href="https://youtu.be/HvDfI-12ah8?list=PLqGW84RLvtT3wT150rpykmReEcWWGa7PJ">
+      <img
+        src="{{ asset('images/youtube/v21.jpg') }}"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt=""
+      />
+      <p style="margin-top:-20px; text-align: center;">যাকাত, সদাক্বাহ এবং ট্যাক্সের মধ্যে পার্থক্য কি?</p>
+    </a>
+  </div>
+
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <a href="https://youtu.be/HvDfI-12ah8?list=PLqGW84RLvtT3wT150rpykmReEcWWGa7PJ" target="_blank">
+      <img
+        src="{{ asset('images/youtube/v11.jpg') }}"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt=""
+      />
+      <p style="margin-top:-20px; text-align: center;">যাকাত কি এবং কেন?</p>
+    </a>
+  </div>
+  
+  <div class="col-lg-4 mb-4 mb-lg-0" style="height: 220px">
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HvDfI-12ah8?list=PLqGW84RLvtT3wT150rpykmReEcWWGa7PJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0" style="height: 220px">
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HvDfI-12ah8?list=PLqGW84RLvtT3wT150rpykmReEcWWGa7PJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0" style="height: 220px">
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/HvDfI-12ah8?list=PLqGW84RLvtT3wT150rpykmReEcWWGa7PJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  
+  </div>
+  <div class="col-12" style="margin-top:-30px;">
+        <div class="general-btn text-center">
+          <a class="btn btn-primary" href="/gallery/video"> All Videos</a>
+        </div>
+  </div>
+  <br>
 </section>
 
 <section class="project-area solid-bg">
@@ -323,37 +616,178 @@
     </div>
     <!--/ Title row end -->
 
-    <div class="row">
+<div class="row">
+        <div class="col-lg-12">
+          
+          <div id="team-slide" class="team-slide">
 
+              <div class="card item">
+                <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      {{-- <img loading="lazy" class="w-100" src="images/team/team1.jpg" alt="team-img"> --}}
+                      <a href="#"><img class="card-img-top" src="{{ asset('images/stories/Maya-Begum.jpg') }}"  width="100%" height="180"  alt=""></a>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title crop-text-2">Nats Stenman</h5>
+                      <p class="card-text crop-text-1">Nats Stenman began his career in construction with boots career in construction with boots career in construction with boots on the ground</p>
+                     <!--/ social-icons-->
+                    </div>
+                </div><!--/ Team wrapper end -->
+              </div><!-- Team 1 end -->
 
-    </div>
+              <div class="card item">
+                <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      {{-- <img loading="lazy" class="w-100" src="images/team/team1.jpg" alt="team-img"> --}}
+                      <a href="#"><img class="card-img-top" src="{{ asset('images/stories/Nusrat.jpg') }}"  width="100%" height="180"  alt=""></a>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title crop-text-2">Nats Stenman</h5>
+                      <p class="card-text crop-text-1">Nats Stenman began his career in construction with boots career in construction with boots career in construction with boots on the ground</p>
+                     <!--/ social-icons-->
+                    </div>
+                </div><!--/ Team wrapper end -->
+              </div><!-- Team 2 end -->
+
+              <div class="card item">
+                <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      {{-- <img loading="lazy" class="w-100" src="images/team/team1.jpg" alt="team-img"> --}}
+                      <a href="#"><img class="card-img-top" src="{{ asset('images/stories/Maya-Begum.jpg') }}"  width="100%" height="180"  alt=""></a>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title crop-text-2">Nats Stenman</h5>
+                      <p class="card-text crop-text-1">Nats Stenman began his career in construction with boots career in construction with boots career in construction with boots on the ground</p>
+                     <!--/ social-icons-->
+                    </div>
+                </div><!--/ Team wrapper end -->
+              </div><!-- Team 1 end -->
+
+              <div class="card item">
+                <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      {{-- <img loading="lazy" class="w-100" src="images/team/team1.jpg" alt="team-img"> --}}
+                      <a href="#"><img class="card-img-top" src="{{ asset('images/stories/Nusrat.jpg') }}"  width="100%" height="180"  alt=""></a>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title crop-text-2">Nats Stenman</h5>
+                      <p class="card-text crop-text-1">Nats Stenman began his career in construction with boots career in construction with boots career in construction with boots on the ground</p>
+                     <!--/ social-icons-->
+                    </div>
+                </div><!--/ Team wrapper end -->
+              </div><!-- Team 1 end -->
+
+              <div class="card item">
+                <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      {{-- <img loading="lazy" class="w-100" src="images/team/team1.jpg" alt="team-img"> --}}
+                      <a href="#"><img class="card-img-top" src="{{ asset('images/stories/Maya-Begum.jpg') }}"  width="100%" height="180"  alt=""></a>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title crop-text-2">Nats Stenman</h5>
+                      <p class="card-text crop-text-1">Nats Stenman began his career in construction with boots career in construction with boots career in construction with boots on the ground</p>
+                     <!--/ social-icons-->
+                    </div>
+                </div><!--/ Team wrapper end -->
+              </div><!-- Team 1 end -->
+
+              <div class="card item">
+                <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      {{-- <img loading="lazy" class="w-100" src="images/team/team1.jpg" alt="team-img"> --}}
+                      <a href="#"><img class="card-img-top" src="{{ asset('images/stories/Maya-Begum.jpg') }}"  width="100%" height="180"  alt=""></a>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title crop-text-2">Nats Stenman</h5>
+                      <p class="card-text crop-text-1">Nats Stenman began his career in construction with boots career in construction with boots career in construction with boots on the ground</p>
+                     <!--/ social-icons-->
+                    </div>
+                </div><!--/ Team wrapper end -->
+              </div><!-- Team 1 end -->
+
+              <div class="card item">
+                <div class="ts-team-wrapper">
+                    <div class="team-img-wrapper">
+                      {{-- <img loading="lazy" class="w-100" src="images/team/team1.jpg" alt="team-img"> --}}
+                      <a href="#"><img class="card-img-top" src="{{ asset('images/stories/Maya-Begum.jpg') }}"  width="100%" height="180"  alt=""></a>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title crop-text-2">Nats Stenman</h5>
+                      <p class="card-text crop-text-1">Nats Stenman began his career in construction with boots career in construction with boots career in construction with boots on the ground</p>
+                     <!--/ social-icons-->
+                    </div>
+                </div><!--/ Team wrapper end -->
+              </div><!-- Team 1 end -->
+
+          </div><!-- Team slide end -->
+        </div>
+    </div><!--/ Content row end -->
+  </div><!--/ Container end -->
+  <div class="col-12">
+        <div class="general-btn text-center">
+          <a class="btn btn-primary" href="/news"> All Stories</a>
+        </div>
+  </div>
   </div>
 </section>
-
-
 <section>
-  <div class="container ">
+  <div class="container">
     <div class="row text-center">
       <div class="col-12">
-        <h2 class="section-title">Contact us</h2>
-      </div>
-      <br><br>
-  </div>
-    <div class="row">
-      <div class="col-md-6">
-
-      </div>
-
-      <div class="col-md-6">
-
+        <h2 class="section-title">Reaching our Office</h2>
+        <h3 class="section-sub-title">Find Our Location</h3>
       </div>
     </div>
+    <!--/ Title row end -->
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="ts-service-box-bg text-center h-100">
+          <span class="ts-service-icon icon-round">
+            <i class="fas fa-map-marker-alt mr-0"></i>
+          </span>
+          <div class="ts-service-box-content">
+            <h4>Visit Our Office</h4>
+            <p class="text-justify">House # 26, Road # 07, Block - C
+              Niketan, Gulshan-1, Dhaka-1212</p>
+          </div>
+        </div>
+      </div><!-- Col 1 end -->
+
+      <div class="col-md-4">
+        <div class="ts-service-box-bg text-center h-100">
+          <span class="ts-service-icon icon-round">
+            <i class="fa fa-envelope mr-0"></i>
+          </span>
+          <div class="ts-service-box-content">
+            <h4>Email Us</h4>
+            <p class="text-justify">info@czm-bd.org</p>
+          </div>
+        </div>
+      </div><!-- Col 2 end -->
+
+      <div class="col-md-4">
+        <div class="ts-service-box-bg text-center h-100">
+          <span class="ts-service-icon icon-round">
+            <i class="fa fa-phone-square mr-0"></i>
+          </span>
+          <div class="ts-service-box-content">
+            <h4>Call Us</h4>
+            <p class="text-justify">+88 02 2222 98255</p>
+          </div>
+        </div>
+      </div><!-- Col 3 end -->
+
+    </div><!-- 1st row end -->
+
+    <div class="gap-60"></div>
+
+    <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=center for zakat&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.fnfgo.com/">FNF Online</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+
   </div>
 </section>
 
-
-
-
+<br>
 
 @endsection
 

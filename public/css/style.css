@@ -1915,7 +1915,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   display: inline-block;
   margin: 20px 0 50px;
   width: 100%;
-  border-bottom: 3px solid #ffb600;
+  border-bottom: 3px solid green;
 }
 
 .shuffle-btn-group label {
@@ -1946,7 +1946,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 .shuffle-btn-group label.active {
   color: #212121;
-  background: #ffb600;
+  background: green;
 }
 
 .shuffle-btn-group label input {
@@ -1993,11 +1993,11 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 .shuffle-item .project-img-container .gallery-popup .gallery-icon {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 45%;
+  right: 45%;
   z-index: 1;
   padding: 5px 12px;
-  background: #ffb600;
+  background: green;
   color: #fff;
   opacity: 0;
   -webkit-transform: perspective(1px) scale3d(0, 0, 0);
@@ -2816,8 +2816,8 @@ img.testimonial-thumb {
 
 /*-- Team page --*/
 .team-slide .slick-slide {
-  margin-left: 25px;
-  padding-bottom: 60px;
+  margin-left: 15px;
+  /* padding-bottom: 60px; */
 }
 
 .team-slide .slick-list {
@@ -2826,7 +2826,7 @@ img.testimonial-thumb {
 
 .team-slide .carousel-control {
   position: absolute;
-  bottom: 0;
+  bottom: -13%;
   left: 50%;
   border: 0;
   background-color: #ddd;
@@ -3549,23 +3549,67 @@ label {
 /* My CSS */
 
 .side-btns {
-  height:70px;
-  width:280px;
+  height:60px;
+  width:220px;
   color:white;
   border:none;
-  font-size:20px;
+  font-size:18px;
   border-radius:8px;
   box-shadow: 5px 10px 18px #ccc;
-  cursor:pointer
+  cursor:pointer;
+  margin-bottom:10px;
+  z-index: 99999;
   }
 
-.side-btns:hover {			
-  font-size:22px;
+.side-btns:hover {	
   transform: scale(1.1);
   transition: transform .9s;
+}
+
+.side-btns2 {
+    height: 70px;
+    width: 320px;
+    color: white;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 10px 18px #ccc;
+    cursor: pointer;
+    margin-bottom: 12px;
+    margin-top: 8px;
+    
+}
+
+.side-btns2:hover {
+    transform: scale(1.1);
+    transition: transform .9s;
 }
 
 .padding-top{
 padding-top: 20px;
 }
+
+.crop-text-1 {
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.crop-text-2 {
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.storiesCard{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
 /* End My CSS */

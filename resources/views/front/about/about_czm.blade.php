@@ -10,6 +10,37 @@
     </div>
 </div>
 
+  <div class="container ">
+    <div class="row position-relative">
+      <div class="col-md-9 col-sm-12">
+        <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi perferendis laborum libero error eaque voluptatibus. Atque quod voluptatibus quidem doloremque deleniti id quisquam distinctio, sapiente, fugit enim itaque aperiam autem?</p>
+        
+        <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi perferendis laborum libero error eaque voluptatibus. Atque quod voluptatibus quidem doloremque deleniti id quisquam distinctio, sapiente, fugit enim itaque aperiam autem?</p>
+        
+        <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi perferendis laborum libero error eaque voluptatibus. Atque quod voluptatibus quidem doloremque deleniti id quisquam distinctio, sapiente, fugit enim itaque aperiam autem?</p>
+        
+        <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi perferendis laborum libero error eaque voluptatibus. Atque quod voluptatibus quidem doloremque deleniti id quisquam distinctio, sapiente, fugit enim itaque aperiam autem?</p>
+        
+        <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi perferendis laborum libero error eaque voluptatibus. Atque quod voluptatibus quidem doloremque deleniti id quisquam distinctio, sapiente, fugit enim itaque aperiam autem?</p>
+        
+        <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi perferendis laborum libero error eaque voluptatibus. Atque quod voluptatibus quidem doloremque deleniti id quisquam distinctio, sapiente, fugit enim itaque aperiam autem?</p>
+        
+        <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi perferendis laborum libero error eaque voluptatibus. Atque quod voluptatibus quidem doloremque deleniti id quisquam distinctio, sapiente, fugit enim itaque aperiam autem?</p>
+        
+        <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi perferendis laborum libero error eaque voluptatibus. Atque quod voluptatibus quidem doloremque deleniti id quisquam distinctio, sapiente, fugit enim itaque aperiam autem?</p>
+        
+        <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi perferendis laborum libero error eaque voluptatibus. Atque quod voluptatibus quidem doloremque deleniti id quisquam distinctio, sapiente, fugit enim itaque aperiam autem?</p>
+        
+        <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi perferendis laborum libero error eaque voluptatibus. Atque quod voluptatibus quidem doloremque deleniti id quisquam distinctio, sapiente, fugit enim itaque aperiam autem?</p>
+        
+        <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi perferendis laborum libero error eaque voluptatibus. Atque quod voluptatibus quidem doloremque deleniti id quisquam distinctio, sapiente, fugit enim itaque aperiam autem?</p>
+      </div>
 
+      <div class="col-md-3 col-sm-12">
+        @include("front.layouts.sidebar")
+      </div>
+
+    </div>
+  </div>
 @endsection
 

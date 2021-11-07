@@ -10,6 +10,31 @@
     </div>
 </div>
 
+<div class="container ">
+    <div class="row position-relative">
+      <div class="col-md-9 col-sm-12">
+        <p>hhh</p>
+        <p>hhh</p>
+        <p>hhh</p>
+        <p>hhh</p>
+                <p>hhh</p>
+        <p>hhh</p>
+        <p>hhh</p>
+        <p>hhh</p>
+                <p>hhh</p>
+        <p>hhh</p>
+        <p>hhh</p>
+        <p>hhh</p>
+      </div>
+
+      <div class="col-md-3 col-sm-12">
+        @include("front.layouts.sidebar")
+      </div>
+
+    </div>
+  </div>
+
+
 
 @endsection
 

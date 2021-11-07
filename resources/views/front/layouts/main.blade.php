@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="{{ asset('plugins/colorbox/colorbox.css') }}">
   <!-- Template styles-->
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+  
 
 </head>
 <body>
@@ -147,10 +148,10 @@
                             <li class="dropdown-submenu">
                                 <a href="#!" class="dropdown-toggle" data-toggle="dropdown">Reports</a>
                                 <ul class="dropdown-menu">
-                                  <li><a href="#">Audit Reports</a></li>
-                                  <li><a href="#">Annual Reports</a></li>
-                                  <li><a href="#">Special Reports</a></li>
-                                  <li><a href="#">Newsletter</a></li>
+                                  <li><a href="/publications/reports/audit">Audit Reports</a></li>
+                                  <li><a href="/publications/reports/annual">Annual Reports</a></li>
+                                  <li><a href="/publications/reports/special">Special Reports</a></li>
+                                  <li><a href="/publications/reports/newsletters">Newsletter</a></li>
                                 </ul>
                             </li>
                           </ul>
@@ -158,11 +159,10 @@
 
                       <li class="nav-item"><a class="nav-link" href="/news">News</a></li>
 
-                      <li class="nav-item"><a class="nav-link" href="#">Success Stories</a></li>
+                      <li class="nav-item"><a class="nav-link" href="/successStories">Success Stories</a></li>
 
-                      
                       <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gallery <i class="fa fa-angle-down"></i></a>
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gallery<i class="fa fa-angle-down"></i></a>
                         <ul class="dropdown-menu" role="menu">
                           <li><a href="/gallery/image">Image Gallery</a></li>
                           <li><a href="/gallery/video">Video Gallery</a></li>
@@ -201,7 +201,7 @@
           <div class="col-md-4">
             <div class="subscribe-call-to-acton">
                 <h3>Wants more about CZM?</h3>
-                <h4>+88 02 2222 98255</h4>
+                <h4 ><a href="tel:+8802222298255">+88 02 2222 98255</a></h4>
             </div>
           </div><!-- Col end -->
   
